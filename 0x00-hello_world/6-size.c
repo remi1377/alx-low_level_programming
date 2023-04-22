@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-	printf("size of char: %d byte \n", sizeof(char));
-	printf("size of int: %d byte \n", sizeof(int));
-	printf("size of long int: %d \n", sizeof(long int));
-	printf("size of a long long int: %d", sizeof(long long int));
-	printf("size of float: %d", sizeof(float));
+	printf("size of a char: %d byte(s) \n", sizeof(char));
+	printf("size of an int: %d byte(s) \n", sizeof(int));
+	printf("size of a long int: %d byte(s)\n", sizeof(long int));
+	printf("size of a long long int: %d byte(s)\n", sizeof(long long int));
+	printf("size of a float: %d byte(s)\n", sizeof(float));
 }
