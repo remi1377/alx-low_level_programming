@@ -6,8 +6,9 @@
 int main(void)
 {
 	int i;
-	char alphabet[42]="zyxwvutsrqponmlkjihgfedcba";
-	for (i = 0 ; i < 42; i++)
+
+	char alphabet[26] = "zyxwvutsrqponmlkjihgfedcba";
+	for (i = 0 ; i < 26; i++)
 	{
 		putchar(alphabet[i]);
 	}
