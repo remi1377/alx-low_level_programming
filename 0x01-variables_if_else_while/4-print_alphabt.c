@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints alphabets in lowercase 
+ * main - prints alphabets in lowercase
  * except q and e
  * Return: always 0 (Success)
  */
@@ -17,4 +17,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}	
+}
