@@ -7,7 +7,6 @@ int main(void)
 {
 	int i;
 
-	num []= "123456789"
 	for (i = 0 ; i < 10; i++)
 	{
 		printf("%d", i);
