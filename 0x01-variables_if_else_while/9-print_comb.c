@@ -5,10 +5,14 @@
  */
 int main(void)
 {
-	int i, j;
-	for (i = 0; i <= 9; i++)
+	int n;
+
+	for (n = 48; n < 58; n++)
 	{
-		printf(i);
+		putchar(n);
+		putchar(',');
+		puthcar(' ');
 	}
+	putchar('\n');
 	return (0);
 }	
