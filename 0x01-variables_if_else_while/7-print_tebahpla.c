@@ -9,8 +9,8 @@ int main(void)
 	char alphabet[42]="zyxwvutsrqponmlkjihgfedcba";
 	for (i = 0 ; i < 42; i++)
 	{
-		putchar([i]);
+		putchar(alphabet[i]);
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
